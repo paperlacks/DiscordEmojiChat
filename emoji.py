@@ -24,7 +24,6 @@ def main():
                 returnString += "   "
                 continue
             if letter in numberDict:
-                print("it is")
                 letter = numberDict[letter]
                 returnString += letter
                 continue
